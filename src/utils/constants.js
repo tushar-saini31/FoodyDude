@@ -1,0 +1,2 @@
+export const Page_log="https://cdn.dribbble.com/users/1365713/screenshots/5381232/media/86983d424b8126d974d6a768e2f15568.png";
+export const IMG_logo="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"
