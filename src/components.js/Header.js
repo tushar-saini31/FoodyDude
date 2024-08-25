@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import { Page_log } from "../utils/constants";
 const Header = () => {
   return (
-    <div>
-      <div className="flex justify-between pr-3  bg-yellow-300  shadow-xl">
+    <header className="fixed top-0 left-0 w-full z-10  bg-yellow-300 m-0 p-0  shadow-xl">
+      <div className="flex justify-between pr-3 m-0 p-0 ">
         <img
           className="w-24 m-2  rounded-lg"
           src={Page_log}
@@ -30,7 +30,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </header>
   );
 };
 export default Header;
