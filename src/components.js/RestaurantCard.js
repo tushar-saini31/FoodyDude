@@ -11,7 +11,7 @@ const RestaurantCard = ({resData}) => {
     } = resData?.info;
     //console.log(resData);
     return (
-        <div className="w-[270px] m-2 cursor-pointer">
+        <div className="w-[270px] m-2 cursor-pointer transform transition duration-200 hover:scale-95">
             {/* <div className="font_bold text-2xl m-4">{header?.title}</div> */}
             <div>
                 <img
@@ -20,7 +20,7 @@ const RestaurantCard = ({resData}) => {
                     alt="restaurantcard_img"
                 />
             </div>
-            <div className="flex flex-col items-start p-4">
+            <div className="flex flex-col items-start p-4 ">
                 <h2 className="font-bold text-lg">{name}</h2>
                 <div className="flex items-center text-gray-700">
                     <span>{avgRatingString}</span>

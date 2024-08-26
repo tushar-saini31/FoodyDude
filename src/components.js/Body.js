@@ -6,6 +6,8 @@ import ListOf_citiesButton from "./LIstOf_citiesButton";
 import ListOf_cuisines from "./ListOf_cuisines";
 import ListOfRestaurantCards_whats_onMind from "./ListOfRestuarantCards_whats_onMind";
 import ListOf_topRatedResturant_near_you from "./ListOf_topRatedResturant_near_you";
+import ListOf_Explore_Restaurant_near from "./ListOf_Explore_Restaurant_near";
+import Footer from "./footer";
 
 const Body = () => {
   const [listofRestaurant, setListofRestaurant] = useState([]);
@@ -13,6 +15,8 @@ const Body = () => {
   const [restaurantCards_onBody, setRestaurantCards_onBody] = useState([]);
   const [listOf_citiesButton, setListOf_citiesButton] = useState([]);
   const [listOf_cuisines, SetListOf_cuisines] = useState([]);
+  const[exploreRestuarant_NearMe, SetExploreRestaurant_NearMe]=useState([]);
+  const[footerData,SetFooterData]=useState([]);
   useEffect(() => {
     fetchData();
   }, []);
@@ -37,6 +41,8 @@ const Body = () => {
       );
       setListOf_citiesButton(json?.data?.cards[6]?.card?.card?.brands);
       SetListOf_cuisines(json?.data?.cards[7]?.card?.card?.brands);
+      SetExploreRestaurant_NearMe(json?.data?.cards[8]?.card?.card?.brands);
+      SetFooterData(json?.data?.cards[9]?.card?.card);
     } catch (error) {
       console.error("Failed to fetch data", error);
     }
@@ -68,6 +74,8 @@ const Body = () => {
       <div>
         <ListOf_cuisines Data={listOf_cuisines} />
       </div>
+      <div><ListOf_Explore_Restaurant_near restaurant={exploreRestuarant_NearMe}/></div>
+      <div className=""><Footer data={footerData}/></div>
     </div>
   );
 };

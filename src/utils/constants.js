@@ -1,2 +1,5 @@
 export const Page_log="https://cdn.dribbble.com/users/1365713/screenshots/5381232/media/86983d424b8126d974d6a768e2f15568.png";
 export const IMG_logo="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"
+export const GooglePlayStore="https://imgs.search.brave.com/B7TuIwgS4_Qeti-N4LCKnV_CNCHB7q5elfA0SJ52buY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mcmVl/bG9nb3BuZy5jb20v/aW1hZ2VzL2FsbF9p/bWcvMTY2NDI4NzEy/OGdvb2dsZS1wbGF5/LXN0b3JlLWxvZ28t/cG5nLnBuZw"
+export const AppleStore="https://imgs.search.brave.com/qVg3wJ89NE4qH5tRPmuDr8OoB4j22H3cEUE7s9crcqQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjEv/MDIvQXBwLVN0b3Jl/LVN5bWJvbC03MDB4/Mzk0LnBuZw";
+export const AppleStore_link="https://apps.apple.com/in/app/swiggy-food-grocery-dineout/id989540920?referrer=utm_source%3Dswiggy%26utm_medium%3Dhomepage"
