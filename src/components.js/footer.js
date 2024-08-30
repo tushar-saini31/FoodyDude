@@ -1,6 +1,6 @@
 import { AppleStore, AppleStore_link, GooglePlayStore, Page_log } from "../utils/constants";
 const Footer = ({ data }) => {
-  console.log(data);
+  //console.log(data);
   return (
     <div className="mt-32">
       <ul className="flex flex-row h-40  bg-slate-300">

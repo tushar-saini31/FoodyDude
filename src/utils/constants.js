@@ -3,3 +3,6 @@ export const IMG_logo="https://media-assets.swiggy.com/swiggy/image/upload/fl_lo
 export const GooglePlayStore="https://imgs.search.brave.com/B7TuIwgS4_Qeti-N4LCKnV_CNCHB7q5elfA0SJ52buY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mcmVl/bG9nb3BuZy5jb20v/aW1hZ2VzL2FsbF9p/bWcvMTY2NDI4NzEy/OGdvb2dsZS1wbGF5/LXN0b3JlLWxvZ28t/cG5nLnBuZw"
 export const AppleStore="https://imgs.search.brave.com/qVg3wJ89NE4qH5tRPmuDr8OoB4j22H3cEUE7s9crcqQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjEv/MDIvQXBwLVN0b3Jl/LVN5bWJvbC03MDB4/Mzk0LnBuZw";
 export const AppleStore_link="https://apps.apple.com/in/app/swiggy-food-grocery-dineout/id989540920?referrer=utm_source%3Dswiggy%26utm_medium%3Dhomepage"
+export const RestaurantMenu_api="https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=30.32750&lng=78.03250&restaurantId="
+export const vegetarian_logo="https://imgs.search.brave.com/_8rqZkBHABkK-pOhsb6Ev2lNOi9lU0qbAcQetnZHz-o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pYW1n/b2luZ3ZlZ2FuLmIt/Y2RuLm5ldC93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMC8wNS9J/bmRpYW4tVmVnZXRh/cmlhbi1NYXJrLTEt/MTAyNHgxMDI0Lmpw/Zw"
+export const greeStar_log="https://imgs.search.brave.com/c6KWm-qcZwpY6icw5zZoFF_iIY7-hwVannOGedAnpmw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9l/L2U5L0VzcGVyYW50/b19zdGFyLnN2Zw"

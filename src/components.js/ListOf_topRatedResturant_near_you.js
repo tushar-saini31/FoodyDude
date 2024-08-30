@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import RestaurantCard from "./RestaurantCard";
 
 const ListOf_topRatedResturant_near_you=({resData})=>{
@@ -12,9 +13,9 @@ const ListOf_topRatedResturant_near_you=({resData})=>{
             <ul className="flex flex-row overflow-y-auto scrollbar-hide border-b-4 ">
               {resData.map((restaurant) => (
                 <li className="flex-shrink-0" key={restaurant?.info?.id}>
-                  <RestaurantCard
+                  <Link to={"/restaurantMenu/"+ restaurant?.info?.id} ><RestaurantCard
                     resData={restaurant}
-                  />
+                  /></Link>
                 </li>
               ))}
             </ul>

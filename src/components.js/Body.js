@@ -8,6 +8,7 @@ import ListOfRestaurantCards_whats_onMind from "./ListOfRestuarantCards_whats_on
 import ListOf_topRatedResturant_near_you from "./ListOf_topRatedResturant_near_you";
 import ListOf_Explore_Restaurant_near from "./ListOf_Explore_Restaurant_near";
 import Footer from "./footer";
+import useRestaurantMenu from "../utils/useRsetaurantMenu";
 
 const Body = () => {
   const [listofRestaurant, setListofRestaurant] = useState([]);
@@ -76,6 +77,9 @@ const Body = () => {
       </div>
       <div><ListOf_Explore_Restaurant_near restaurant={exploreRestuarant_NearMe}/></div>
       <div className=""><Footer data={footerData}/></div>
+      {/* <div>
+        <useRestaurantMenu/>
+      </div> */}
     </div>
   );
 };
