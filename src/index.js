@@ -11,6 +11,7 @@ import Body from "./components.js/Body";
 import Contact from "./components.js/Contact";
 import Error from "./Error";
 import RestaurantMenu from "./components.js/RestaurantMenu";
+import Search from "./components.js/Search";
 const AppRouter = createBrowserRouter([
   {
     path: "/",
@@ -43,6 +44,10 @@ const AppRouter = createBrowserRouter([
       {
         path:"/restaurantMenu/:resId",
         element:<RestaurantMenu/>
+      },
+      {
+        path:"/search",
+        element:<Search/>
       }
     ],
     errorElement: <Error />,

@@ -1,6 +1,12 @@
+import { useDispatch } from "react-redux";
 import { greeStar_log, IMG_logo, vegetarian_logo } from "../utils/constants";
-
+import { addItem } from "../utils/cartSlice";
 const RestaurantMenuList_itemCard = ({ ItemCardData}) => {
+
+  const dispatch=useDispatch(ItemCardData);
+  const handleOnclick=()=>{
+    dispatch(addItem(ItemCardData));
+  }
   //console.log( ItemCardData);
     const { name, id, imageId, price, vegClassifier, ratings,
         description
@@ -28,7 +34,7 @@ const RestaurantMenuList_itemCard = ({ ItemCardData}) => {
               <img className="rounded-xl w-40 h-30" src={IMG_logo+imageId}/>
             </li>
             <li className="flex justify-center">
-              <button className="w-16 bg-yellow-500 text-white text-center rounded-lg">ADD</button>
+              <button className="w-16 bg-yellow-500 text-white text-center rounded-lg" onClick={handleOnclick}>ADD</button>
             </li>
           </ul>
         </ul>

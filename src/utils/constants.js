@@ -6,3 +6,6 @@ export const AppleStore_link="https://apps.apple.com/in/app/swiggy-food-grocery-
 export const RestaurantMenu_api="https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=30.32750&lng=78.03250&restaurantId="
 export const vegetarian_logo="https://imgs.search.brave.com/_8rqZkBHABkK-pOhsb6Ev2lNOi9lU0qbAcQetnZHz-o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pYW1n/b2luZ3ZlZ2FuLmIt/Y2RuLm5ldC93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMC8wNS9J/bmRpYW4tVmVnZXRh/cmlhbi1NYXJrLTEt/MTAyNHgxMDI0Lmpw/Zw"
 export const greeStar_log="https://imgs.search.brave.com/c6KWm-qcZwpY6icw5zZoFF_iIY7-hwVannOGedAnpmw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9l/L2U5L0VzcGVyYW50/b19zdGFyLnN2Zw"
+export const empty_cart_log="https://cdni.iconscout.com/illustration/free/thumb/free-empty-cart-illustration-download-in-svg-png-gif-file-formats--is-explore-box-states-pack-design-development-illustrations-3385483.png?f=webp"
+export const Header_cart_logo="https://cdn.vectorstock.com/i/preview-1x/71/93/black-shopping-cart-icon-on-transparent-background-vector-31557193.jpg"
+export const User_logo="https://t4.ftcdn.net/jpg/04/98/72/43/360_F_498724323_FonAy8LYYfD1BUC0bcK56aoYwuLHJ2Ge.jpg";

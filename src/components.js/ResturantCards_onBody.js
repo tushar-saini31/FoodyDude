@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import RestaurantCard from "./RestaurantCard";
 
 const RestaurantCards_onBody = ({ restuarantData }) => { 
@@ -10,7 +11,7 @@ const RestaurantCards_onBody = ({ restuarantData }) => {
             <div className="flex flex-wrap ml-44">
             {restuarantData.map((restauts) => (  // Use the data passed from props
                 <div key={restauts?.info?.id}> 
-                    <RestaurantCard resData={restauts} />
+                    <Link to={"/restaurantMenu/"+ restauts?.info?.id} ><RestaurantCard resData={restauts} /></Link>
                 </div>
             ))}
             </div>
