@@ -9,3 +9,5 @@ export const greeStar_log="https://imgs.search.brave.com/c6KWm-qcZwpY6icw5zZoFF_
 export const empty_cart_log="https://cdni.iconscout.com/illustration/free/thumb/free-empty-cart-illustration-download-in-svg-png-gif-file-formats--is-explore-box-states-pack-design-development-illustrations-3385483.png?f=webp"
 export const Header_cart_logo="https://cdn.vectorstock.com/i/preview-1x/71/93/black-shopping-cart-icon-on-transparent-background-vector-31557193.jpg"
 export const User_logo="https://t4.ftcdn.net/jpg/04/98/72/43/360_F_498724323_FonAy8LYYfD1BUC0bcK56aoYwuLHJ2Ge.jpg";
+export const cuisines_menu_api="https://www.swiggy.com/dapi/restaurants/list/v5?lat=30.32750&lng=78.03250&collection="
+export const help_support_log="https://t4.ftcdn.net/jpg/04/93/70/73/360_F_493707340_iGpjorK1UzxnuIZ3XyTqY8eLSVPkK5Ku.jpg";

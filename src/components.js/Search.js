@@ -1,18 +1,6 @@
-// // const Search=()=>{
-// //     return(
-// //         <div className="mt-32 flex justify-center">
-// //             <div className=" h-20  w-1/2 bg-orange-400 rounded-lg">
-// //             <div className="flex justify-center mt-3">
-// //                 <input className="w-1/2 h-14 text-lg font-bold border-2 border-black p-4 " placeholder="Search for Restauarants and food"/>
-// //                 <button><img className="w-10 h-10 p-1" src="https://t4.ftcdn.net/jpg/07/56/20/35/360_F_756203558_VMcQ7oLUbFsl3BGSlakacXQ3oOxgiyxP.jpg"/></button>
-// //             </div>
-// //             </div>
-// //         </div>
-// //     )
-// // }
-// // export default Search;
 
-// import ListOfRestaurantCards_whats_onMind from "./ListOfRestuarantCards_whats_onMind";
+
+ import ListOfRestaurantCards_whats_onMind from "./ListOfRestuarantCards_whats_onMind";
 
 
 
@@ -32,7 +20,7 @@ const Search = () => {
                     />
                 </button>
             </div>
-            {/* < ListOfRestaurantCards_whats_onMind/> */}
+            {/* //< ListOfRestaurantCards_whats_onMind/> */}
         </div>
     );
 }

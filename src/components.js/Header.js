@@ -6,7 +6,7 @@ const Header = () => {
   const cartItems=useSelector((store)=>store.cart.items);
   console.log(cartItems);
   return (
-    <header className="fixed top-0 left-0 w-full z-10  bg-yellow-300 m-0 p-0  shadow-xl">
+    <header className="fixed top-0 left-0 w-full z-50  bg-yellow-300 m-0 p-0  shadow-xl">
       <div className="flex justify-between pr-3 m-0 p-0 ">
        <Link><img
           className="w-24 m-2  rounded-lg"
@@ -18,16 +18,16 @@ const Header = () => {
           <li className="pt-4 m-3 text-lg ">
             <Link to="/">Home</Link>
           </li>
-          <li className="text-lg m-3 pt-4"><Link to="/search">Search</Link></li>
+          {/* <li className="text-lg m-3 pt-4"><Link to="/search">Search</Link></li> */}
           <li className="pt-4 m-3 text-lg ">
             <Link to="/contact">Contact</Link>
           </li>
           <li className="pt-4 m-3 text-lg ">
             <Link to="/cart">Cart({cartItems.length})</Link>
           </li>
-          <li className="pt-4 m-3 text-lg ">
+          {/* <li className="pt-4 m-3 text-lg ">
             <Link to="/login">Login</Link>
-          </li>
+          </li> */}
           <li className="pt-4 m-3 text-lg ">
             <Link to="/help">Help</Link>
           </li>

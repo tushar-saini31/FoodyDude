@@ -1,6 +1,6 @@
 const Cart_footer = () => {
   return (
-    <div className="bg-slate-200 w-screen h-screen mt-44 relative">
+    <div className="bg-slate-200 w-screen h-screen mt-60 relative">
       <div className="flex justify-end">
         <div className=" mt-20 mr-48 text-gray-500 flex-col relative z-20">
           <h1 className="font-bold text-4xl">Cart Empty</h1>
@@ -40,3 +40,8 @@ const Cart_footer = () => {
   );
 };
 export default Cart_footer;
+
+
+
+
+
