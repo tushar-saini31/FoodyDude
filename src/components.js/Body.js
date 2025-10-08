@@ -31,13 +31,8 @@ const Body = () => {
 
   const fetchData = async () => {
     try {
-<<<<<<< HEAD
       const data = await fetch( "/api/swiggy");
-=======
-      const data = await fetch(
-        "https://www.swiggy.com/dapi/restaurants/list/v5?lat=30.32750&lng=78.03250&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
-      );
->>>>>>> 267487c6587133f0943767babe9585a7520d60b9
+     
       const json = await data.json();
       console.log(json);
 
